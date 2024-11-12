@@ -1,0 +1,59 @@
+/* styles/Todos.module.css */
+
+.mainContainer {
+  padding: 20px;
+}
+
+.todoContainer {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.taskCount,
+.completedCount {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.taskInput,
+.priority {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.addButton {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toggle,
+.remove {
+  padding: 5px;
+  cursor: pointer;
+}
